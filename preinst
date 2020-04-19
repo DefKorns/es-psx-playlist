@@ -1,0 +1,27 @@
+#!/bin/sh
+#
+#  MIT License
+#  Copyright (c) 2020 DefKorns (https://defkorns.github.io/LICENSE)
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+mod="emulationstation"
+es_dir="/media/project_eris/opt/${mod}"
+sup_dir="/media/project_eris/etc/project_eris/SUP"
+prev_version="${sup_dir}/${mod}/playlist_es.sh"
+[ -f "${prev_version}" ] && rm -rf "${prev_version}"
+
+cp "${es_dir}/launch.sh" "${es_dir}/launch.backup"
+sed -i '8i[ -f "/media/project_eris/etc/project_eris/SUP/emulationstation/playlist_es.sh" ] && sh "/media/project_eris/etc/project_eris/SUP/emulationstation/playlist_es.sh"' "${es_dir}/launch.sh"
