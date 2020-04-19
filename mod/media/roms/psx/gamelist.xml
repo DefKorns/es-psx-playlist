@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gameList>
+  <provider>
+    <System>Playstation</System>
+    <software>Skraper</software>
+    <database>ScreenScraper.fr</database>
+    <web>http://www.screenscraper.fr</web>
+  </provider>
+  <game id="19536" source="ScreenScraper.fr">
+    <path>./SCPS-10026.cue</path>
+    <name>Arc the Lad II</name>
+    <desc>This direct sequel to "Arc the Lad" continues the unfinished story of the first game, but starts from a totally different perspective. You control a bounty-hunter named Elk, who suffers from amnesia. On his quest for his own true identity he discovers the powers hidden within him, and the destiny of his entire tribe. While pursuing his archenemy, Elk meets up with Arc, the hero of the first game, and then both realize they have been looking to destroy the very same evil.  The battle system of "Arc the Lad II" is similar to the one used in its predecessor: in battles you can move your characters on the battle field, and your proximity to the enemies plays an important role. You cause and take different amounts of damage depending on your position on the battle field. Unlike the first game, this one is a full-fledged adventure/RPG, without the "strategy" feel of the predecessor. You move through the game world on your own, visiting towns and exploring dungeons.</desc>
+    <rating>0.8</rating>
+    <releasedate>20020418T000000</releasedate>
+    <developer>Arc Entertainment</developer>
+    <publisher>Sony</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+  </game>
+  <game id="19472" source="ScreenScraper.fr">
+    <path>./SCPS-10008.cue</path>
+    <name>Arc the Lad</name>
+    <desc>A girl named Kukuru lives in a village controlled by the Sacred Tribe - people who guard an ancient flame which contains a powerful spirit that was sealed in it many years ago. Kukuru must marry a man she doesn't love, and in order to avoid this marriage, she accepts the offer of the mayor: he asks her to extinguish the flame. As a result, the spirit awakes and threatens to destroy the world. A young adventurer named Arc arrives to the village at the same moment as Kukuru is standing frightened in front of the spirit. Arc immediately recognizes it - it was the murderer of his father! Before he realizes how that could be possible, the spirit disappears, and now Arc and Kukuru have to do everything in their powers to undo the error, to stop the spirit, and perhaps to avenge the death of Arc's father. "Arc the Lad" is a hybrid of traditional and strategy-based console-style RPGs. The story unfolds as you are transported from location to location and enter battles - you don't walk around on the world map, choosing yourself which location to visit. The battles take place on a battle field, on which you can move and attack only when you approach the opponent.</desc>
+    <rating>0.8</rating>
+    <releasedate>19950630T000000</releasedate>
+    <developer>Working Designs</developer>
+    <publisher>Sony</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+    <image>./media/Arc the Lad.png</image>
+  </game>
+  <game id="19681" source="ScreenScraper.fr">
+    <path>./SLPS-00900.cue</path>
+    <name>Armored Core</name>
+    <desc>You play the role of a Raven mercenary, piloting a powerful Mech called "Armored Core". You only work for profit, as the money you make goes towards upgrades and repaires to your mech.  Multi-national companies are lined up at your door, paying you to complete certain objectives, which mainly include the destruction of a certain target or another mech. The more you complete, the better the pay and job offers, therefore allowing you to build the ultimate Armored Core.  Apart from the single player campaign, you can take on a friend in a multiplayer battle. You each control a mech, and battle it out in a large war area (ranging from huge cities to desert planes).</desc>
+    <rating>0.8</rating>
+    <releasedate>19980701T000000</releasedate>
+    <developer>From Software</developer>
+    <publisher>Sony</publisher>
+    <genre>Action</genre>
+    <players>1-2</players>
+    <hash>CBE4AC47</hash>
+    <image>./media/Armored Core.png</image>
+  </game>
+  <game id="19551" source="ScreenScraper.fr">
+    <path>./SCES-00002.cue</path>
+    <name>Battle Arena Toshinden</name>
+    <desc>Battle Arena Toshinden is a fighting game for the PlayStation. It was one of the first fighting games to boast polygonal characters in a 3D battle arena, rather than the traditional side-to-side fighting space that had been popular since Street Fighter II.     </desc>
+    <rating>0.7</rating>
+    <releasedate>19950901T000000</releasedate>
+    <developer>Takara</developer>
+    <publisher>Sony</publisher>
+    <genre>Fighting</genre>
+    <players>1-2</players>
+    <image>./media/Battle Arena Toshinden.png</image>
+  </game>
+  <game id="19551" source="ScreenScraper.fr">
+    <path>./SLPS-00025.cue</path>
+    <name>Toushinden</name>
+    <desc>Battle Arena Toshinden is a fighting game for the PlayStation. It was one of the first fighting games to boast polygonal characters in a 3D battle arena, rather than the traditional side-to-side fighting space that had been popular since Street Fighter II.     </desc>
+    <rating>0.7</rating>
+    <releasedate>19950901T000000</releasedate>
+    <developer>Takara</developer>
+    <publisher>Sony</publisher>
+    <genre>Fighting</genre>
+    <players>1-2</players>
+    <image>./media/Battle Arena Toshinden (Japan).png</image>
+  </game>
+  <game id="19254" source="ScreenScraper.fr">
+    <path>./SLPS-00998.cue</path>
+    <name>Bio Hazard : Director's Cut</name>
+    <desc>After receiving a distress call from the Bravo Team, an elite group from S.T.A.R.S (Special Tactics And Rescue Squad) flew into the desolate Raccoon City. Apparently, the team had uncovered something concerning the Umbrella corporation -- a biotech research company. But then, without warning, the Bravo Team vanished into thin air. Upon landing in the small city, the members of S.T.A.R.S began to investigate. They heard some strange noises coming from the surrounding woods and realized the sounds were getting closer. Scared, they took off running and kept on until they came to a large, ominous mansion. Seeking safety they entered, locking the door behind them. Their adventure had just begun.</desc>
+    <rating>0.9</rating>
+    <releasedate>19970925T000000</releasedate>
+    <developer>Virgin</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action</genre>
+    <players>1</players>
+    <hash>A5538BF1</hash>
+    <image>./media/Biohazard - Director's Cut (Japan).png</image>
+  </game>
+  <game id="19789" source="ScreenScraper.fr">
+    <path>./SCES-00992.cue</path>
+    <name>Cool Boarders 2</name>
+    <desc>Cool Boarders 2 features four stock riders and six stock tracks. Many more are available as you progress through the game or unlock them with codes or secrets.   This installment of the Cool Boarders series features a split screen "Vs" mode, where two human players can race each other. It also features a one person race option, to race against up to six CPU controlled players.   The tracks all vary in length and challenge level. There is also a half pipe, Boardpark level and a Trick Master Run with continuous jumps and a tutorial to teach you all the moves. The move list in Cool Boarders 2 is quite extensive, including standard board grabs and various flips and spins. The graphic technology is primarily based on 3D polygonal models. The game also features red book audio.</desc>
+    <rating>0.45</rating>
+    <releasedate>19980115T000000</releasedate>
+    <developer>UEP Systems</developer>
+    <publisher>Sony</publisher>
+    <genre>Sports-Sports / Skiing</genre>
+    <players>1-2</players>
+    <image>./media/Cool Boarders 2.png</image>
+  </game>
+  <game id="19420" source="ScreenScraper.fr">
+    <path>./SCES-00008.cue</path>
+    <name>Destruction Derby</name>
+    <desc>You probably feel like a crash test dummy when you're playing this game - it's not only a racing game, but you get points for wrecking your enemies! The amount of points you get depends on how you hit them ... e.g. you get more points for getting them do a 360 other than driving into theirs sides at high speed. The game has more to offer: a head to head mode with only two cars or the legendary destruction derby itself - a huge arena, every car starts at the edge of it, and then - have a nice crash!</desc>
+    <rating>0.7</rating>
+    <releasedate>19951020T000000</releasedate>
+    <developer>Psygnosis</developer>
+    <publisher>Reflections</publisher>
+    <genre>Race, Driving</genre>
+    <players>1-2</players>
+    <image>./media/Destruction Derby (Europe).png</image>
+  </game>
+  <game id="19249" source="ScreenScraper.fr">
+    <path>./SLPS-01057.m3u</path>
+    <name>Final Fantasy VII</name>
+    <desc>Set in a dystopian world, Final Fantasy VII's story centers on mercenary Cloud Strife who joins with several others to stop the megacorporation Shinra, which is draining the life of the planet to use as an energy source. As the story progresses, the situation escalates and Cloud and his allies face Sephiroth, the game's main antagonist.</desc>
+    <rating>0.8</rating>
+    <releasedate>19970131T000000</releasedate>
+    <developer>Square</developer>
+    <publisher>Square</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+    <image>./media/Final Fantasy VII (Japan).png</image>
+  </game>
+  <game id="19249" source="ScreenScraper.fr">
+    <path>./SCUS-94163.m3u</path>
+    <name>Final Fantasy VII</name>
+    <desc>Set in a dystopian world, Final Fantasy VII's story centers on mercenary Cloud Strife who joins with several others to stop the megacorporation Shinra, which is draining the life of the planet to use as an energy source. As the story progresses, the situation escalates and Cloud and his allies face Sephiroth, the game's main antagonist.</desc>
+    <rating>0.8</rating>
+    <releasedate>19970815T000000</releasedate>
+    <developer>Square</developer>
+    <publisher>Square</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+    <image>./media/Final Fantasy VII.png</image>
+  </game>
+  <game id="19860" source="ScreenScraper.fr">
+    <path>./SLPS-01348.cue</path>
+    <name>G. Darius</name>
+    <desc>G-Darius revolves around a conflict between the humanoids of Amnelia and cyborg/chimera biovessels known as the "Thiima" (meant to mean simply "bringers of death"). The Thiima had been aroused by the Amnelian army's use of the weapon A.N. (All-Nothing) to annihilate the world Blazar, whom Amnelia had been at war with over jurisdiction over the moon Mahsah. Determined to protect their existence, and long ago programmed to protect the universe from just such threats as A.N., the Thiima swarmed on Amnelia. Although the armed forces were badly ravaged, Amnelian scientists and engineers were able to make use of both A.N. and reverse engineered Thiiman technology/life systems to create the Silver Hawk fighters. Ultimately, two pilots "Sameluck Raida and Lutia Feen" are chosen to perform a decisive attack on the main Thiima base: Kazumn, a satellite of the planet Darius.</desc>
+    <rating>0.85</rating>
+    <releasedate>19980930T000000</releasedate>
+    <developer>THQ</developer>
+    <publisher>Infogrames</publisher>
+    <genre>Shoot'em Up / Horizontal-Shoot'em Up</genre>
+    <players>1-2</players>
+    <image>./media/G-Darius.png</image>
+  </game>
+  <game id="20163" source="ScreenScraper.fr">
+    <path>./SLPM-86042.cue</path>
+    <name>Gradius Gaiden</name>
+    <desc>Evil lurks out there in the universe and only you, aboard your trusty Vic Viper starfighter, can put an end to it. Gradius Gaiden is yet another shooter in the Gradius series.  Gameplay consists of moving your fighter across side-scrolling stages shooting everything in sight and avoiding enemy fire, with your objective being to reach the end and defeat the stage boss to move on. You can collect power-ups which fills your power-up bards and which can then be triggered at any time for a specific effect depending on what bar is active at the moment.   The game uses 2D graphics with some polygonal elements and features 2-player co-op gameplay as well as the option to select from four starfighters to take into battle.</desc>
+    <rating>0.8</rating>
+    <releasedate>19970828T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Shoot'em Up</genre>
+    <players>1-2</players>
+    <image>./media/Gradius Gaiden.png</image>
+  </game>
+  <game id="19335" source="ScreenScraper.fr">
+    <path>./SLES-00032.cue</path>
+    <name>Grand Theft Auto</name>
+    <desc>In Grand Theft Auto, you assume the role of a street thug working for an organized syndicate of criminals that specializes in stealing cars. Every time your pager beeps, the boss needs you to steal something for him -- if you don't get to a payphone and answer the message, you'll be in hot water (or is that cold water at the bottom of the East River).   After receiving your mission, you'll have to navigate city streets that are bustling with pedestrians, cops (your worst enemies), and traffic jams. Because you're pressed for time, you can't just walk to your destination on foot -- that would take too long. Instead, you'll have to go car jacking, the art of physically removing people out of their vehicles and stealing it.             This is the premise behind Grand Theft Auto, an overhead action game of thievery. There are four large cities in which you'll have to steal cars, shoot rival gang members, and complete missions for the boss. Each mission requires you to get something from point "A" to point "B". For example, the head honcho wants to pull off a bank heist -- instead of using regular cars, they want you to steal a couple taxicabs for them. This way, the cops won't be able to find them as easily in traffic.</desc>
+    <rating>0.7</rating>
+    <releasedate>19971201T000000</releasedate>
+    <developer>DMA Design</developer>
+    <publisher>Take 2 Interactive</publisher>
+    <genre>Race, Driving-Action</genre>
+    <players>1</players>
+    <image>./media/Grand Theft Auto (Europe).png</image>
+  </game>
+  <game id="99472" source="ScreenScraper.fr">
+    <path>./SCPS-10029.cue</path>
+    <name>I.Q Intelligent Qube</name>
+    <desc>Intelligent Qube is a classic puzzle game for the PlayStation. It is known as Kurushi in Europe and Australia. In the game, the player controls a character who must run around a platform made of cubes, capturing certain cubes as they approach. Cubes are "captured" by marking a spot on the stage, waiting for the cube to roll on top of it, and then deactivating the marked spot.   Intelligent Qube was relatively well-received received by critics. The game performed well commercially in Japan and even won Excellence Award for Interactive Art at the 1997 Japan Media Arts Festival. A few sequels have been developed and the game has since been re-released on mobile phones and the Japanese PlayStation Store.  </desc>
+    <rating>0.75</rating>
+    <releasedate>19970131T000000</releasedate>
+    <developer>G-Artists</developer>
+    <publisher>Sony Computer Entertaiment</publisher>
+    <genre>Puzzle-Action</genre>
+    <players>1-2</players>
+    <image>./media/Intelligent Qube (Japan).png</image>
+  </game>
+  <game id="99472" source="ScreenScraper.fr">
+    <path>./SCUS-94181.cue</path>
+    <name>I.Q. : Intelligent Qube</name>
+    <desc>Intelligent Qube is a classic puzzle game for the PlayStation. It is known as Kurushi in Europe and Australia. In the game, the player controls a character who must run around a platform made of cubes, capturing certain cubes as they approach. Cubes are "captured" by marking a spot on the stage, waiting for the cube to roll on top of it, and then deactivating the marked spot.   Intelligent Qube was relatively well-received received by critics. The game performed well commercially in Japan and even won Excellence Award for Interactive Art at the 1997 Japan Media Arts Festival. A few sequels have been developed and the game has since been re-released on mobile phones and the Japanese PlayStation Store.  </desc>
+    <rating>0.75</rating>
+    <releasedate>19970930T000000</releasedate>
+    <developer>G-Artists</developer>
+    <publisher>Sony Computer Entertaiment</publisher>
+    <genre>Puzzle-Action</genre>
+    <players>1-2</players>
+    <image>./media/Intelligent Qube (USA).png</image>
+  </game>
+  <game id="19934" source="ScreenScraper.fr">
+    <path>./SCES-00003.cue</path>
+    <name>Jumping Flash!</name>
+    <desc>What would the video game industry be without mad, evil scientists such as Baron Aloha that want to take over the world? We'd have fewer games, that's for sure! Anyway, if this guy carries out his plans, the whole universe will suffer under his menacing wrath. Fortunately, help is on the way. Yes, a giant mechanical rabbit, aptly named Robbit, is here to save the day. And of course, you are Robbit and must go around the world of Jumping Flash! collecting the missing "jetpods" and stop Baron Aloha.   Jumping Flash! is a first person shooter set in a graphically stunning 3D universe. To stop Aloha, you must tackle and hop (well, you ARE a big mechanical bunny) your way through 6 worlds divided into 18 different levels, pick up various special weapons, blast little critters that try to get in your way and find the missing jetpods.</desc>
+    <rating>0.85</rating>
+    <releasedate>19951001T000000</releasedate>
+    <developer>Sony</developer>
+    <publisher>Sony</publisher>
+    <genre>Platform</genre>
+    <players>1</players>
+    <image>./media/Jumping Flash! (Europe).png</image>
+  </game>
+  <game id="19934" source="ScreenScraper.fr">
+    <path>./SCPS-10007.cue</path>
+    <name>Jumping Flash!</name>
+    <desc>What would the video game industry be without mad, evil scientists such as Baron Aloha that want to take over the world? We'd have fewer games, that's for sure! Anyway, if this guy carries out his plans, the whole universe will suffer under his menacing wrath. Fortunately, help is on the way. Yes, a giant mechanical rabbit, aptly named Robbit, is here to save the day. And of course, you are Robbit and must go around the world of Jumping Flash! collecting the missing "jetpods" and stop Baron Aloha.   Jumping Flash! is a first person shooter set in a graphically stunning 3D universe. To stop Aloha, you must tackle and hop (well, you ARE a big mechanical bunny) your way through 6 worlds divided into 18 different levels, pick up various special weapons, blast little critters that try to get in your way and find the missing jetpods.</desc>
+    <rating>0.85</rating>
+    <releasedate>19950428T000000</releasedate>
+    <developer>Sony</developer>
+    <publisher>Sony</publisher>
+    <genre>Platform</genre>
+    <players>1</players>
+    <image>./media/Jumping Flash! (Japan).png</image>
+  </game>
+  <game id="19389" source="ScreenScraper.fr">
+    <path>./SLPS-00500.cue</path>
+    <name>Megami Ibunroku Persona : Be Your True Mind</name>
+    <desc>In the near future, mankind has conquered dimensional travel but the door we have opened swings both ways. The peaceful city you have grown up in has become a haven for dark creatures from another world-Demons! Now it's up to you and your friends to harness the hidden power within you by entering the fantasy game known as Persona.    You awaken with incredible abilities that you will need to defeat the scores of Demon invaders and cleanse the land of their forces. Converse with them before doing battle to determine your best course of action. Fight them or enlist their aid in your mission. Either way, you are set for the fantasy adventure of a lifetime!</desc>
+    <rating>0.7</rating>
+    <releasedate>19960920T000000</releasedate>
+    <developer>Atlus</developer>
+    <publisher>Atlus</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+    <image>./media/Persona Revelations (Japan).png</image>
+  </game>
+  <game id="19260" source="ScreenScraper.fr">
+    <path>./SLUS-00594.m3u</path>
+    <name>Metal Gear Solid</name>
+    <desc>You are Snake, a government agent on a mission to regain control of a secret nuclear weapons base from terrorist hands. Lightly armed and facing an army of foes, Snake must avoid firefights in order to survive. If Snake can locate them he can utilize advanced hardware, ranging from silenced pistols to ground-to-air missiles. Enemies react to sight and sound - so stay quiet and stay in the shadows. State-of-the-art graphics: textures, transparencies, models and explosions. Taut, gripping story with multiple endings - a truly cinematic experience.</desc>
+    <rating>0.8</rating>
+    <releasedate>19990222T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Action-Shooter</genre>
+    <players>1</players>
+    <hash>C7E4C75B</hash>
+    <image>./media/Metal Gear Solid (USA).png</image>
+  </game>
+  <game id="19260" source="ScreenScraper.fr">
+    <path>./SLPM-86114.m3u</path>
+    <name>Metal Gear Solid</name>
+    <desc>You are Snake, a government agent on a mission to regain control of a secret nuclear weapons base from terrorist hands. Lightly armed and facing an army of foes, Snake must avoid firefights in order to survive. If Snake can locate them he can utilize advanced hardware, ranging from silenced pistols to ground-to-air missiles. Enemies react to sight and sound - so stay quiet and stay in the shadows. State-of-the-art graphics: textures, transparencies, models and explosions. Taut, gripping story with multiple endings - a truly cinematic experience.</desc>
+    <rating>0.8</rating>
+    <releasedate>19980903T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Action-Shooter</genre>
+    <players>1</players>
+    <hash>F929E29C</hash>
+    <image>./media/Metal Gear Solid (Japan).png</image>
+  </game>
+  <game id="20346" source="ScreenScraper.fr">
+    <path>./SLPS-02600.cue</path>
+    <name>Mr. Driller</name>
+    <desc>Mr Driller is a real-time puzzle game that relies solely on quick-thinking and a bit of planning. Gameplay is a combination of Tetris and Boulder Dash: You have to drill down through multi-colored blocks to reach the bottom while avoiding the consequences of reckless drilling (blocks may fall on you and crush you).</desc>
+    <rating>0.65</rating>
+    <releasedate>20000629T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Puzzle-Strategy</genre>
+    <players>1</players>
+    <hash>5F124406</hash>
+    <image>./media/Mr Driller (Japan).png</image>
+  </game>
+  <game id="20346" source="ScreenScraper.fr">
+    <path>./SLUS-01111.cue</path>
+    <name>Mr. Driller</name>
+    <desc>Mr Driller is a real-time puzzle game that relies solely on quick-thinking and a bit of planning. Gameplay is a combination of Tetris and Boulder Dash: You have to drill down through multi-colored blocks to reach the bottom while avoiding the consequences of reckless drilling (blocks may fall on you and crush you).</desc>
+    <rating>0.65</rating>
+    <releasedate>20000509T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Puzzle-Strategy</genre>
+    <players>1</players>
+    <hash>6D75A64F</hash>
+    <image>./media/Mr Driller (USA).png</image>
+  </game>
+  <game id="19264" source="ScreenScraper.fr">
+    <path>./SLES-00664.cue</path>
+    <name>Oddworld : Abe's Oddysee</name>
+    <desc>Abe's Oddysee begins with the eponymous protagonist as a prisoner in RuptureFarms, from which he narrates his story. He and many other Mudokons are slaves to Molluck the Glukkon, the owner of RuptureFarms: "the biggest meat-processing plant on Oddworld". Abe is a contented floor-waxer First Class and currently Employee of the Year. At the time of the story, the ingredients of the corporation's three major "Tasty Treats" (Scrab Cakes, Paramite Pies, and Meech Munchies) are quickly running out, with the Meeches already extinct. While working late, Abe overhears Molluck's plan to use the Mudokon slaves as meat products called "Mudokon Pops!", which frightens Abe into escaping from the factory.</desc>
+    <rating>0.8</rating>
+    <releasedate>19970915T000000</releasedate>
+    <developer>GT Interactive</developer>
+    <publisher>Oddworld Inhabitants</publisher>
+    <genre>Platform</genre>
+    <players>1-2</players>
+    <hash>0C9B5BEB</hash>
+    <image>./media/Oddworld - Abe's Oddysee (Europe).png</image>
+  </game>
+  <game id="19308" source="ScreenScraper.fr">
+    <path>./SLPS-01230.m3u</path>
+    <name>Parasite Eve</name>
+    <desc>An ordinary day in New York for rookie police officer Aya Brea. Christmas Eve is the present day, and you've decided to visit the opera theater. Now this is where the fireworks begin. Suddenly audience members are set on fire, toasted completely, and it appears that the lead vocal is the source of this burning terror. Yet you appear to be immune, and as a police officer you're always on duty, so you must confront the danger. There has to be some connection between the two of you, as that seems the only rational explanation. What if mitochondria are a species on its own, more advanced then humankind, and using them only to create environments and civilization for themselves? What if humankind are just hosts? What if mitochondria are the natural enemy of humankind? That would make Aya their natural enemy, so the battle for survival and uncovering the truth has already started. The game is played over six days, each day bringing its own quest. Environments range from Central Park and the American Museum of Natural History to a police office and hospital, all of them modeled like realistic places and most of them crawling with bloodthirsty mutant animals. Combat is different from traditional RPGs, as while you still take turns attacking and/or using parasite powers, you'll be able to run across the battlefield and dodge enemy fire or even strike from a better angle or behind. As Aya levels up she will gain access to parasite powers, such as healing or supercharging a bullet with energy. These powers will deplete a recharging energy bar, although the bar will recharge slower the longer combat drags on. Aya will find many guns of various types throughout the game, and every gun can be modified with extra stats, either with special items, or by breaking down another gun to move over its bonus stats or special effects. The same is true for armor Aya finds.</desc>
+    <rating>0.8</rating>
+    <releasedate>19980329T000000</releasedate>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action-Role playing games</genre>
+    <players>1</players>
+    <image>./media/Parasite Eve (Japan).png</image>
+  </game>
+  <game id="19389" source="ScreenScraper.fr">
+    <path>./SLUS-00339.cue</path>
+    <name>Persona</name>
+    <desc>In the near future, mankind has conquered dimensional travel but the door we have opened swings both ways. The peaceful city you have grown up in has become a haven for dark creatures from another world-Demons! Now it's up to you and your friends to harness the hidden power within you by entering the fantasy game known as Persona.    You awaken with incredible abilities that you will need to defeat the scores of Demon invaders and cleanse the land of their forces. Converse with them before doing battle to determine your best course of action. Fight them or enlist their aid in your mission. Either way, you are set for the fantasy adventure of a lifetime!</desc>
+    <rating>0.7</rating>
+    <releasedate>19961101T000000</releasedate>
+    <developer>Atlus</developer>
+    <publisher>Atlus</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+    <image>./media/Persona Revelations (Japan).png</image>
+  </game>
+  <game id="19537" source="ScreenScraper.fr">
+    <path>./SLPS-01800.cue.cue</path>
+    <name>R4 : Ridge Racer Type 4</name>
+    <desc>Powering beyond RIDGE and RAGE RACER, high-speed control and advanced dynamics accekerate the rush of a first class victory.    -In-depth Grand Prix Mode  -Incredible two-player action  -40+ unique car models with over 300 variations  -Hyper-evolved graphics for the supreme racing experience</desc>
+    <rating>0.8</rating>
+    <releasedate>19981203T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Sony</publisher>
+    <genre>Race, Driving</genre>
+    <players>2</players>
+    <image>./media/R4 - Ridge Racer Type 4 (Japan).png</image>
+  </game>
+  <game id="19537" source="ScreenScraper.fr">
+    <path>./SLUS-00797.cue</path>
+    <name>R4 : Ridge Racer Type 4</name>
+    <desc>Powering beyond RIDGE and RAGE RACER, high-speed control and advanced dynamics accekerate the rush of a first class victory.    -In-depth Grand Prix Mode  -Incredible two-player action  -40+ unique car models with over 300 variations  -Hyper-evolved graphics for the supreme racing experience</desc>
+    <rating>0.8</rating>
+    <releasedate>19990501T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Sony</publisher>
+    <genre>Race, Driving</genre>
+    <players>2</players>
+    <image>./media/R4 - Ridge Racer Type 4 (USA).png</image>
+  </game>
+  <game id="19275" source="ScreenScraper.fr">
+    <path>./SLUS-00005.cue</path>
+    <name>Rayman</name>
+    <desc>Rayman to the rescue! He must free the Electoons, defeat Mr. Dark, save the Great Protoon from its mysterious kidnapper, and restore harmony to the world.</desc>
+    <rating>0.75</rating>
+    <releasedate>19950909T000000</releasedate>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Platform</genre>
+    <players>1</players>
+    <image>./media/Rayman (USA).png</image>
+  </game>
+  <game id="19254" source="ScreenScraper.fr">
+    <path>./SLES-00969.cue</path>
+    <name>Resident Evil : Director's Cut</name>
+    <desc>	After receiving a distress call from the Bravo Team, an elite group from S.T.A.R.S (Special Tactics And Rescue Squad) flew into the desolate Raccoon City. Apparently, the team had uncovered something concerning the Umbrella corporation -- a biotech research company. But then, without warning, the Bravo Team vanished into thin air. Upon landing in the small city, the members of S.T.A.R.S began to investigate. They heard some strange noises coming from the surrounding woods and realized the sounds were getting closer. Scared, they took off running and kept on until they came to a large, ominous mansion. Seeking safety they entered, locking the door behind them. Their adventure had just begun.</desc>
+    <rating>0.9</rating>
+    <releasedate>19960801T000000</releasedate>
+    <developer>Virgin</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action</genre>
+    <players>1</players>
+    <image>./media/Resident Evil - Director's Cut (Europe).png</image>
+  </game>
+  <game id="19561" source="ScreenScraper.fr">
+    <path>./SLPS-00898.cue</path>
+    <name>SaGa Frontier</name>
+    <desc>Saga Frontier is a fantasy / sci-fi anime style RPG. It's set in a huge world (30 zones). You choose one of seven characters to defeat the game and the game stores the data from the chosen character which affect what happens once you play the game with one of the other six characters. The game features a LOT of side quests.</desc>
+    <rating>0.7</rating>
+    <releasedate>19970711T000000</releasedate>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+    <image>./media/SaGa Frontier (Japan).png</image>
+  </game>
+  <game id="20229" source="ScreenScraper.fr">
+    <path>./SLUS-00418.cue</path>
+    <name>Super Puzzle Fighter II Turbo</name>
+    <desc>A Tetris-like puzzle game featuring popular characters from many Capcom games.  Colored gems fall from the top of the screen in pairs, but this time lining up those of the same color is not enough. To break the gems and punish your opponent with counter gems you have to place a crash gem of the same color next to the gems. If you make a block of gems of the same color they'll fuse, forming a power gem. Breaking a power gem sends more counter gems to your opponent than breaking the same amount of gems in some other configuration. But the ultimate attack is breaking power gems in chain.</desc>
+    <rating>0.75</rating>
+    <releasedate>19961130T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Puzzle</genre>
+    <players>1-2</players>
+    <image>./media/Super Puzzle Fighter II Turbo (USA).png</image>
+  </game>
+  <game id="20229" source="ScreenScraper.fr">
+    <path>./SLPS-00611.cue</path>
+    <name>Super Puzzle Fighter II X</name>
+    <desc>A Tetris-like puzzle game featuring popular characters from many Capcom games.  Colored gems fall from the top of the screen in pairs, but this time lining up those of the same color is not enough. To break the gems and punish your opponent with counter gems you have to place a crash gem of the same color next to the gems. If you make a block of gems of the same color they'll fuse, forming a power gem. Breaking a power gem sends more counter gems to your opponent than breaking the same amount of gems in some other configuration. But the ultimate attack is breaking power gems in chain.</desc>
+    <rating>0.75</rating>
+    <releasedate>19961130T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Puzzle</genre>
+    <players>1-2</players>
+    <image>./media/Super Puzzle Fighter II X (Japan).png</image>
+  </game>
+  <game id="19328" source="ScreenScraper.fr">
+    <path>./SCUS-94240.cue</path>
+    <name>Syphon Filter</name>
+    <desc>Gabriel Logan, one of the government's top covert agents, must neutralize the terrorists that threaten Washington D.C. and destroy a biological weapon that has been built to end the lives of millions of innocent people. Syphon Filter is an action game played from the 3rd person. Players take the role of Gabiel Logan as well as other CBDC agents. To successfully complete the mission, players must utilize each of the character's skills accordingly. Logan is able to kneel, crouch, walk, roll, climb, jump and run to meet his objectives. The action unfolds over thirteen missions that are chock full of dangers, hazards and puzzles.</desc>
+    <rating>0.75</rating>
+    <releasedate>19990131T000000</releasedate>
+    <developer>Eidetic</developer>
+    <publisher>989 Studios</publisher>
+    <genre>Adventure-Strategy</genre>
+    <players>1</players>
+    <image>./media/Syphon Filter (USA).png</image>
+  </game>
+  <game id="19280" source="ScreenScraper.fr">
+    <path>./SCES-01237.cue</path>
+    <name>Tekken 3</name>
+    <desc>An ancient evil force has reawakened, attacking in secret and feeding on the souls of mighty warriors. To lure it out of hiding will take the greatest fighting contest the world has ever seen... Tekken 3. Some are fighting for revenge, some for honor, ultimately, all are fighting for their lives and the fate of all mankind.</desc>
+    <rating>0.8</rating>
+    <releasedate>19980912T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Fighting</genre>
+    <players>1-2</players>
+    <image>./media/Tekken 3 (Europe).png</image>
+  </game>
+  <game id="19280" source="ScreenScraper.fr">
+    <path>./SLPS-01300.cue</path>
+    <name>Tekken 3</name>
+    <desc>An ancient evil force has reawakened, attacking in secret and feeding on the souls of mighty warriors. To lure it out of hiding will take the greatest fighting contest the world has ever seen... Tekken 3. Some are fighting for revenge, some for honor, ultimately, all are fighting for their lives and the fate of all mankind.</desc>
+    <rating>0.8</rating>
+    <releasedate>19980326T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Fighting</genre>
+    <players>1-2</players>
+    <image>./media/Tekken 3 (Japan).png</image>
+  </game>
+  <game id="19520" source="ScreenScraper.fr">
+    <path>./SLES-01136.cue</path>
+    <name>Tom Clancy's Rainbow Six</name>
+    <desc>Using a Tom Clancy storyline and characters, Tom Clancy's Rainbow Six for the PlayStation is an original first person 3D shooter where you take control of an elite counter-terrorist organization named Rainbow Six. After selecting one of three difficulty levels (beginner, intermediate or Special Forces), you select a team of operatives from a full roster. You can also equip your team with the appropriate weapons and equipment based on real-life munitions (even in Sniper Mode).   To further realism you can select where each team member begins. After planning, lead your team into the mission where you get to control each member, one at a time. Also, as in real life, one shot may often maim or kill your operatives. If all of your operatives are killed, your mission ends. You must then choose to either move on with new operatives or retry the mission.   If you complete all of your objectives you move on to the next mission for a total of 14 different missions in real world locations. In addition to the regular missions, you are also given the option to train. In the training level you can practice controlling an operative in a non-threatening environment. This is where you really get to learn some important skills. There is an assault course, a shooting range, and a training mission.   Tom Clancy's Rainbow Six includes many real-life weapons. They include guns, grenades and kits. Some guns include: the HK MP5A2, the preferred submachine gun of counter-terrorist operatives around the world; the CAR-15, a compact M-16; and the Benelli M1, a good tactical shotgun that is an essential weapon for many teams. Other weapons include Frag Grenades, Heartbeat Sensors and Demolition Kits.   Uniforms are another essential piece of equipment for counter-terrorists. Some include the ever-popular light, medium and heavy uniforms, the desert uniform, and the Camo uniform -- all used in different environments. The game also features real time lighting and special effects for ultimate realism.</desc>
+    <rating>0.5</rating>
+    <releasedate>19991119T000000</releasedate>
+    <developer>Red Storm</developer>
+    <publisher>Rebellion</publisher>
+    <genre>Action-Strategy-Shooter /1st Person Shooter</genre>
+    <players>1</players>
+    <hash>B87CF3C3</hash>
+    <image>./media/Tom Clancy's Rainbow Six (Europe).png</image>
+  </game>
+  <game id="19449" source="ScreenScraper.fr">
+    <path>./SCUS-94304.cue</path>
+    <name>Twisted Metal</name>
+    <desc>The original classic! Choose from 12 different vehicles ranging from a rig to a bike and try to win the Twisted Metal contest. TM features plenty of weapons, including fire missiles, homing missiles, mines, and of course, each car has their own special weapon that delivers huge damage with cool effects. All battles are waged in 3D combat arenas, with plenty of power-ups and secret areas to find, which adds depth - which is important because TM in not really a single player game. Though it has a single player mode, the real meat is in the two-player battles.</desc>
+    <rating>0.75</rating>
+    <releasedate>19951105T000000</releasedate>
+    <developer>Sony</developer>
+    <publisher>Sony</publisher>
+    <genre>Race, Driving-Shooter</genre>
+    <players>1-2</players>
+    <image>./media/Twisted Metal (USA).png</image>
+  </game>
+  <game id="19330" source="ScreenScraper.fr">
+    <path>./SCPS-10028.cue</path>
+    <name>Wild Arms</name>
+    <desc>Wild Arms is a classic style RPG with some wild west aspects such as guns (called ARMS) thrown in. The main map view is done with graphics similar in style to those found on SNES RPGs but to a higher quality. Combat is a typical turn based mode in 3D mode where you designate each characters actions at the start of each round. During the game you control three characters: Rudy, a wanderer who uses ARMS, Jack, a treasure hunter, and Cecilia, an aprentice wizard. During the game you encounter the usual hordes of monsters and discover a series of giant robot like cretures refered to as golems which play an important role in the plot.</desc>
+    <rating>0.75</rating>
+    <releasedate>19961220T000000</releasedate>
+    <developer>Sony</developer>
+    <publisher>Media Vision</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+    <image>./media/Wild Arms (Japan).png</image>
+  </game>
+  <game id="19330" source="ScreenScraper.fr">
+    <path>./SCUS-94608.cue</path>
+    <name>Wild Arms</name>
+    <desc>Wild Arms is a classic style RPG with some wild west aspects such as guns (called ARMS) thrown in. The main map view is done with graphics similar in style to those found on SNES RPGs but to a higher quality. Combat is a typical turn based mode in 3D mode where you designate each characters actions at the start of each round. During the game you control three characters: Rudy, a wanderer who uses ARMS, Jack, a treasure hunter, and Cecilia, an aprentice wizard. During the game you encounter the usual hordes of monsters and discover a series of giant robot like cretures refered to as golems which play an important role in the plot.</desc>
+    <rating>0.75</rating>
+    <releasedate>19970430T000000</releasedate>
+    <developer>Sony</developer>
+    <publisher>Media Vision</publisher>
+    <genre>Role playing games</genre>
+    <players>1</players>
+    <image>./media/Wild Arms (USA).png</image>
+  </game>
+  <game id="19873" source="ScreenScraper.fr">
+    <path>./SCPS-10051.cue</path>
+    <name>XI</name>
+    <desc>Using Devils to wipe out rows of dice, play one-to-one challenges or take on four friends in a frenetic battle for survival in this devilishly fiendish multi-player puzzle game.  Choice of 4 different game modes: race against the clock, attempt increasingly challenging puzzles, team up with a friend or battle to be the sole survivor.</desc>
+    <rating>0.8</rating>
+    <releasedate>19980618T000000</releasedate>
+    <developer>Dreamcatcher</developer>
+    <publisher>Sony</publisher>
+    <genre>Puzzle</genre>
+    <players>1-5</players>
+    <image>./media/Devil Dice (Japan).png</image>
+  </game>
+</gameList>
