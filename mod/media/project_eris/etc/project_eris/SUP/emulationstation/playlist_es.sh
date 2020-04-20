@@ -33,7 +33,8 @@ mount | grep -qs "${esPSXDir}" && umount "${esPSXDir}"
 [ ! -d "${volPSX}" ] && mkdir -p "${volPSX}"
 
 # find all PSX games and link them to ES rom folder
-find "$gaaData" "$peGameDir" -maxdepth 2 -type f -name "*.cue" -o -name "*.m3u" -o -name "*.bin" | while IFS= read -r gameFile; do
+
+find "$gaaData" "$peGameDir" -maxdepth 2 -regex ".*\.\(cue\|m3u\|bin\|pbp\|chd\|iso\)" | while IFS= read -r gameFile; do
   gameTitle="${gameFile##*/}"
 
   if [ ! -f "${volPSX}/${gameTitle}" ]; then
