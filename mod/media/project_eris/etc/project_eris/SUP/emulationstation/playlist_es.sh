@@ -1,6 +1,5 @@
 #!/bin/bash
 #
-#  MIT License
 #  Copyright (c) 2020 DefKorns (https://defkorns.github.io/LICENSE)
 #
 #  This program is free software: you can redistribute it and/or modify
