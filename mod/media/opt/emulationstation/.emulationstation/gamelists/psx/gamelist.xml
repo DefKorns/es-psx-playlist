@@ -16,6 +16,7 @@
     <publisher>Sony</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
+    <image>~/.emulationstation/gamelists/psx/media/Arc the Lad II.png</image>
   </game>
   <game id="19472" source="ScreenScraper.fr">
     <path>./SCPS-10008.cue</path>
@@ -27,7 +28,7 @@
     <publisher>Sony</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
-    <image>./media/Arc the Lad.png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Arc the Lad.png</image>
   </game>
   <game id="19681" source="ScreenScraper.fr">
     <path>./SLPS-00900.cue</path>
