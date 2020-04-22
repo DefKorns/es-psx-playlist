@@ -47,7 +47,6 @@ find "$original_games" "$custom_games" -maxdepth 2 -regex ".*\.\(cue\|m3u\|bin\|
 
   [ ! -f "${lower_dir}/${file_name}" ] && ln -s "$game_file" "$lower_dir"
 
-
   if [ "${ext}" == "m3u" ]; then
     echo "${disc_rm}" >>"${tmp_dir}/psxCleanup"
     rm "${lower_dir}/${file_name}"
@@ -62,6 +61,7 @@ for g in "${game_ids[@]}"; do
   find "$lower_dir" -name "${g}.*" -exec rm {} +
 done
 
+# shellcheck disable=SC2199,SC2076
 if [[ "${western_psc[@]}" =~ "$psc_region" ]]; then
   ln -s "${original_m3u}/SLUS-00594.m3u" "${lower_dir}"
   ln -s "${original_m3u}/SCUS-94163.m3u" "${lower_dir}"

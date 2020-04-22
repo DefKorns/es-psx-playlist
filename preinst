@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 #  Copyright (c) 2020 DefKorns (https://defkorns.github.io/LICENSE)
 #
@@ -16,11 +16,14 @@
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
-mod="emulationstation"
-es_dir="/media/project_eris/opt/${mod}"
+es_dir="/media/project_eris/opt/emulationstation"
 sup_dir="/media/project_eris/etc/project_eris/SUP"
-prev_version="${sup_dir}/${mod}/playlist_es.sh"
-[ -f "${prev_version}" ] && rm -rf "${prev_version}"
+prev_version="${sup_dir}/emulationstation/playlist_es.sh"
+backup_file="${es_dir}/launch.backup"
+launcher="${es_dir}/launch.sh"
 
-cp "${es_dir}/launch.sh" "${es_dir}/launch.backup"
+[ -f "${prev_version}" ] && rm -rf "${prev_version}"
+[ -f "${backup_file}" ] && rm -rf "${backup_file}"
+[ -f "${launcher}" ] && sed -i '/playlist_es.sh/d' "${launcher}"
+
 sed -i '8i[ -f "/media/project_eris/etc/project_eris/SUP/emulationstation/playlist_es.sh" ] && sh "/media/project_eris/etc/project_eris/SUP/emulationstation/playlist_es.sh"' "${es_dir}/launch.sh"
