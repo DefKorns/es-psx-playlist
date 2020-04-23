@@ -2,7 +2,7 @@ DEPENDANT=0
 
 PKG_PRETTY_NAME := Emulationstation: PSX Playlist
 PKG_NAME := es-psx-playlist
-VERSION := 1.0
+VERSION := 1.2.2
 PKG_CREATOR := DefKorns
 MAINTAINER := DefKorns <defkorns@gmail.com>
 PLATFORM := SONYPSC
