@@ -41,7 +41,7 @@
     <genre>Action</genre>
     <players>1-2</players>
     <hash>CBE4AC47</hash>
-    <image>./media/Armored Core.png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Armored Core.png</image>
   </game>
   <game id="19551" source="ScreenScraper.fr">
     <path>./SCES-00002.cue</path>
@@ -53,7 +53,7 @@
     <publisher>Sony</publisher>
     <genre>Fighting</genre>
     <players>1-2</players>
-    <image>./media/Battle Arena Toshinden.png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Battle Arena Toshinden.png</image>
   </game>
   <game id="19551" source="ScreenScraper.fr">
     <path>./SLPS-00025.cue</path>
@@ -65,7 +65,7 @@
     <publisher>Sony</publisher>
     <genre>Fighting</genre>
     <players>1-2</players>
-    <image>./media/Battle Arena Toshinden (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Battle Arena Toshinden (Japan).png</image>
   </game>
   <game id="19254" source="ScreenScraper.fr">
     <path>./SLPS-00998.cue</path>
@@ -78,7 +78,7 @@
     <genre>Action</genre>
     <players>1</players>
     <hash>A5538BF1</hash>
-    <image>./media/Biohazard - Director's Cut (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Biohazard - Director's Cut (Japan).png</image>
   </game>
   <game id="19789" source="ScreenScraper.fr">
     <path>./SCES-00992.cue</path>
@@ -90,7 +90,7 @@
     <publisher>Sony</publisher>
     <genre>Sports-Sports / Skiing</genre>
     <players>1-2</players>
-    <image>./media/Cool Boarders 2.png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Cool Boarders 2.png</image>
   </game>
   <game id="19420" source="ScreenScraper.fr">
     <path>./SCES-00008.cue</path>
@@ -102,7 +102,7 @@
     <publisher>Reflections</publisher>
     <genre>Race, Driving</genre>
     <players>1-2</players>
-    <image>./media/Destruction Derby (Europe).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Destruction Derby (Europe).png</image>
   </game>
   <game id="19249" source="ScreenScraper.fr">
     <path>./SLPS-01057.m3u</path>
@@ -114,7 +114,7 @@
     <publisher>Square</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
-    <image>./media/Final Fantasy VII (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Final Fantasy VII (Japan).png</image>
   </game>
   <game id="19249" source="ScreenScraper.fr">
     <path>./SCUS-94163.m3u</path>
@@ -126,7 +126,7 @@
     <publisher>Square</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
-    <image>./media/Final Fantasy VII.png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Final Fantasy VII.png</image>
   </game>
   <game id="19860" source="ScreenScraper.fr">
     <path>./SLPS-01348.cue</path>
@@ -138,7 +138,7 @@
     <publisher>Infogrames</publisher>
     <genre>Shoot'em Up / Horizontal-Shoot'em Up</genre>
     <players>1-2</players>
-    <image>./media/G-Darius.png</image>
+    <image>~/.emulationstation/gamelists/psx/media/G-Darius.png</image>
   </game>
   <game id="20163" source="ScreenScraper.fr">
     <path>./SLPM-86042.cue</path>
@@ -150,7 +150,7 @@
     <publisher>Konami</publisher>
     <genre>Shoot'em Up</genre>
     <players>1-2</players>
-    <image>./media/Gradius Gaiden.png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Gradius Gaiden.png</image>
   </game>
   <game id="19335" source="ScreenScraper.fr">
     <path>./SLES-00032.cue</path>
@@ -162,7 +162,7 @@
     <publisher>Take 2 Interactive</publisher>
     <genre>Race, Driving-Action</genre>
     <players>1</players>
-    <image>./media/Grand Theft Auto (Europe).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Grand Theft Auto (Europe).png</image>
   </game>
   <game id="99472" source="ScreenScraper.fr">
     <path>./SCPS-10029.cue</path>
@@ -174,7 +174,7 @@
     <publisher>Sony Computer Entertaiment</publisher>
     <genre>Puzzle-Action</genre>
     <players>1-2</players>
-    <image>./media/Intelligent Qube (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Intelligent Qube (Japan).png</image>
   </game>
   <game id="99472" source="ScreenScraper.fr">
     <path>./SCUS-94181.cue</path>
@@ -186,7 +186,7 @@
     <publisher>Sony Computer Entertaiment</publisher>
     <genre>Puzzle-Action</genre>
     <players>1-2</players>
-    <image>./media/Intelligent Qube (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Intelligent Qube (USA).png</image>
   </game>
   <game id="19934" source="ScreenScraper.fr">
     <path>./SCES-00003.cue</path>
@@ -198,7 +198,7 @@
     <publisher>Sony</publisher>
     <genre>Platform</genre>
     <players>1</players>
-    <image>./media/Jumping Flash! (Europe).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Jumping Flash! (Europe).png</image>
   </game>
   <game id="19934" source="ScreenScraper.fr">
     <path>./SCPS-10007.cue</path>
@@ -210,7 +210,7 @@
     <publisher>Sony</publisher>
     <genre>Platform</genre>
     <players>1</players>
-    <image>./media/Jumping Flash! (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Jumping Flash! (Japan).png</image>
   </game>
   <game id="19389" source="ScreenScraper.fr">
     <path>./SLPS-00500.cue</path>
@@ -222,7 +222,7 @@
     <publisher>Atlus</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
-    <image>./media/Persona Revelations (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Persona Revelations (Japan).png</image>
   </game>
   <game id="19260" source="ScreenScraper.fr">
     <path>./SLUS-00594.m3u</path>
@@ -235,7 +235,7 @@
     <genre>Action-Shooter</genre>
     <players>1</players>
     <hash>C7E4C75B</hash>
-    <image>./media/Metal Gear Solid (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Metal Gear Solid (USA).png</image>
   </game>
   <game id="19260" source="ScreenScraper.fr">
     <path>./SLPM-86114.m3u</path>
@@ -248,7 +248,7 @@
     <genre>Action-Shooter</genre>
     <players>1</players>
     <hash>F929E29C</hash>
-    <image>./media/Metal Gear Solid (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Metal Gear Solid (Japan).png</image>
   </game>
   <game id="20346" source="ScreenScraper.fr">
     <path>./SLPS-02600.cue</path>
@@ -261,7 +261,7 @@
     <genre>Puzzle-Strategy</genre>
     <players>1</players>
     <hash>5F124406</hash>
-    <image>./media/Mr Driller (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Mr Driller (Japan).png</image>
   </game>
   <game id="20346" source="ScreenScraper.fr">
     <path>./SLUS-01111.cue</path>
@@ -274,7 +274,7 @@
     <genre>Puzzle-Strategy</genre>
     <players>1</players>
     <hash>6D75A64F</hash>
-    <image>./media/Mr Driller (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Mr Driller (USA).png</image>
   </game>
   <game id="19264" source="ScreenScraper.fr">
     <path>./SLES-00664.cue</path>
@@ -287,7 +287,7 @@
     <genre>Platform</genre>
     <players>1-2</players>
     <hash>0C9B5BEB</hash>
-    <image>./media/Oddworld - Abe's Oddysee (Europe).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Oddworld - Abe's Oddysee (Europe).png</image>
   </game>
   <game id="19308" source="ScreenScraper.fr">
     <path>./SLPS-01230.m3u</path>
@@ -299,7 +299,7 @@
     <publisher>Square Enix</publisher>
     <genre>Action-Role playing games</genre>
     <players>1</players>
-    <image>./media/Parasite Eve (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Parasite Eve (Japan).png</image>
   </game>
   <game id="19389" source="ScreenScraper.fr">
     <path>./SLUS-00339.cue</path>
@@ -311,7 +311,7 @@
     <publisher>Atlus</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
-    <image>./media/Persona Revelations (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Persona Revelations (Japan).png</image>
   </game>
   <game id="19537" source="ScreenScraper.fr">
     <path>./SLPS-01800.cue.cue</path>
@@ -323,7 +323,7 @@
     <publisher>Sony</publisher>
     <genre>Race, Driving</genre>
     <players>2</players>
-    <image>./media/R4 - Ridge Racer Type 4 (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/R4 - Ridge Racer Type 4 (Japan).png</image>
   </game>
   <game id="19537" source="ScreenScraper.fr">
     <path>./SLUS-00797.cue</path>
@@ -335,7 +335,7 @@
     <publisher>Sony</publisher>
     <genre>Race, Driving</genre>
     <players>2</players>
-    <image>./media/R4 - Ridge Racer Type 4 (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/R4 - Ridge Racer Type 4 (USA).png</image>
   </game>
   <game id="19275" source="ScreenScraper.fr">
     <path>./SLUS-00005.cue</path>
@@ -347,7 +347,7 @@
     <publisher>Ubisoft</publisher>
     <genre>Platform</genre>
     <players>1</players>
-    <image>./media/Rayman (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Rayman (USA).png</image>
   </game>
   <game id="19254" source="ScreenScraper.fr">
     <path>./SLES-00969.cue</path>
@@ -359,7 +359,7 @@
     <publisher>Capcom</publisher>
     <genre>Action</genre>
     <players>1</players>
-    <image>./media/Resident Evil - Director's Cut (Europe).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Resident Evil - Director's Cut (Europe).png</image>
   </game>
   <game id="19561" source="ScreenScraper.fr">
     <path>./SLPS-00898.cue</path>
@@ -371,7 +371,7 @@
     <publisher>Square Enix</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
-    <image>./media/SaGa Frontier (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/SaGa Frontier (Japan).png</image>
   </game>
   <game id="20229" source="ScreenScraper.fr">
     <path>./SLUS-00418.cue</path>
@@ -383,7 +383,7 @@
     <publisher>Capcom</publisher>
     <genre>Puzzle</genre>
     <players>1-2</players>
-    <image>./media/Super Puzzle Fighter II Turbo (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Super Puzzle Fighter II Turbo (USA).png</image>
   </game>
   <game id="20229" source="ScreenScraper.fr">
     <path>./SLPS-00611.cue</path>
@@ -395,7 +395,7 @@
     <publisher>Capcom</publisher>
     <genre>Puzzle</genre>
     <players>1-2</players>
-    <image>./media/Super Puzzle Fighter II X (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Super Puzzle Fighter II X (Japan).png</image>
   </game>
   <game id="19328" source="ScreenScraper.fr">
     <path>./SCUS-94240.cue</path>
@@ -407,7 +407,7 @@
     <publisher>989 Studios</publisher>
     <genre>Adventure-Strategy</genre>
     <players>1</players>
-    <image>./media/Syphon Filter (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Syphon Filter (USA).png</image>
   </game>
   <game id="19280" source="ScreenScraper.fr">
     <path>./SCES-01237.cue</path>
@@ -419,7 +419,7 @@
     <publisher>Namco</publisher>
     <genre>Fighting</genre>
     <players>1-2</players>
-    <image>./media/Tekken 3 (Europe).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Tekken 3 (Europe).png</image>
   </game>
   <game id="19280" source="ScreenScraper.fr">
     <path>./SLPS-01300.cue</path>
@@ -431,7 +431,7 @@
     <publisher>Namco</publisher>
     <genre>Fighting</genre>
     <players>1-2</players>
-    <image>./media/Tekken 3 (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Tekken 3 (Japan).png</image>
   </game>
   <game id="19520" source="ScreenScraper.fr">
     <path>./SLES-01136.cue</path>
@@ -444,7 +444,7 @@
     <genre>Action-Strategy-Shooter /1st Person Shooter</genre>
     <players>1</players>
     <hash>B87CF3C3</hash>
-    <image>./media/Tom Clancy's Rainbow Six (Europe).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Tom Clancy's Rainbow Six (Europe).png</image>
   </game>
   <game id="19449" source="ScreenScraper.fr">
     <path>./SCUS-94304.cue</path>
@@ -456,7 +456,7 @@
     <publisher>Sony</publisher>
     <genre>Race, Driving-Shooter</genre>
     <players>1-2</players>
-    <image>./media/Twisted Metal (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Twisted Metal (USA).png</image>
   </game>
   <game id="19330" source="ScreenScraper.fr">
     <path>./SCPS-10028.cue</path>
@@ -468,7 +468,7 @@
     <publisher>Media Vision</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
-    <image>./media/Wild Arms (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Wild Arms (Japan).png</image>
   </game>
   <game id="19330" source="ScreenScraper.fr">
     <path>./SCUS-94608.cue</path>
@@ -480,7 +480,7 @@
     <publisher>Media Vision</publisher>
     <genre>Role playing games</genre>
     <players>1</players>
-    <image>./media/Wild Arms (USA).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Wild Arms (USA).png</image>
   </game>
   <game id="19873" source="ScreenScraper.fr">
     <path>./SCPS-10051.cue</path>
@@ -492,6 +492,6 @@
     <publisher>Sony</publisher>
     <genre>Puzzle</genre>
     <players>1-5</players>
-    <image>./media/Devil Dice (Japan).png</image>
+    <image>~/.emulationstation/gamelists/psx/media/Devil Dice (Japan).png</image>
   </game>
 </gameList>
