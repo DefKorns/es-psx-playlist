@@ -15,15 +15,12 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
+
 pe_dir="/media/project_eris"
-es_dir="${pe_dir}/opt/emulationstation"
+psx_gamelist="${pe_dir}/opt/emulationstation/.emulationstation/gamelists/psx"
 sup_dir="${pe_dir}/etc/project_eris/SUP"
-prev_version="${sup_dir}/emulationstation/playlist_es.sh"
-backup_file="${es_dir}/launch.backup"
-launcher="${es_dir}/launch.sh"
+updated_script="${sup_dir}/emulationstation/playlist_es.sh"
 
-[ -f "${prev_version}" ] && rm -rf "${prev_version}"
-[ -f "${backup_file}" ] && rm -rf "${backup_file}"
-[ -f "${launcher}" ] && sed -i '/playlist_es.sh/d' "${launcher}"
-
-sed -i '8i[ -f "/media/project_eris/etc/project_eris/SUP/emulationstation/playlist_es.sh" ] && sh "/media/project_eris/etc/project_eris/SUP/emulationstation/playlist_es.sh"' "${es_dir}/launch.sh"
+[ -f "/tmp/playlist_es.sh" ] && mv "/tmp/playlist_es.sh" "${updated_script}"
+[ -f "/tmp/gamelist.xml" ] && mv "/tmp/gamelist.xml" "${psx_gamelist}/gamelist.xml"
+[ -d "/tmp/boxart" ] && mv "/tmp/boxart" "${psx_gamelist}/media"

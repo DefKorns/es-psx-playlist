@@ -30,8 +30,12 @@ $(PKG_TARGET).mod:
 	echo " Platform: $(PLATFORM) $(ARCHITECTURE)" >> $(PKG_TARGET)/DEBIAN/control
 	echo " Built: $(shell date)" >> $(PKG_TARGET)/DEBIAN/control
 	cp -rf preinst $(PKG_TARGET)/DEBIAN/preinst
+	cp -rf postinst $(PKG_TARGET)/DEBIAN/postinst
+	cp -rf postrm $(PKG_TARGET)/DEBIAN/postrm
 	chmod 755 $(PKG_TARGET)/DEBIAN
 	chmod 755 $(PKG_TARGET)/DEBIAN/preinst
+	chmod 755 $(PKG_TARGET)/DEBIAN/postinst
+	chmod 755 $(PKG_TARGET)/DEBIAN/postrm
 	dpkg-deb -v --build $(PKG_TARGET)
 	mv $(PKG_TARGET).deb $(PKG_TARGET).mod
 
