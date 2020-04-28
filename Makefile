@@ -2,7 +2,7 @@ DEPENDANT=0
 
 PKG_PRETTY_NAME := Emulationstation: PSX Playlist
 PKG_NAME := es-psx-playlist
-VERSION := 1.2.2
+VERSION := 1.2.3
 PKG_CREATOR := DefKorns
 MAINTAINER := DefKorns <defkorns@gmail.com>
 PLATFORM := SONYPSC
@@ -26,9 +26,9 @@ $(PKG_TARGET).mod:
 		"Maintainer: $(MAINTAINER)" \
 		"Description: $(PKG_PRETTY_NAME)" > $(PKG_TARGET)/DEBIAN/control
 	cat mod_description.txt >> $(PKG_TARGET)/DEBIAN/control
-	echo " Author: $(PKG_CREATOR)" >> $(PKG_TARGET)/DEBIAN/control
-	echo " Platform: $(PLATFORM) $(ARCHITECTURE)" >> $(PKG_TARGET)/DEBIAN/control
-	echo " Built: $(shell date)" >> $(PKG_TARGET)/DEBIAN/control
+	echo "Author: $(PKG_CREATOR)" >> $(PKG_TARGET)/DEBIAN/control
+	echo "Platform: $(PLATFORM) $(ARCHITECTURE)" >> $(PKG_TARGET)/DEBIAN/control
+	echo "Built: $(shell date)" >> $(PKG_TARGET)/DEBIAN/control
 	cp -rf preinst $(PKG_TARGET)/DEBIAN/preinst
 	cp -rf postinst $(PKG_TARGET)/DEBIAN/postinst
 	cp -rf postrm $(PKG_TARGET)/DEBIAN/postrm
