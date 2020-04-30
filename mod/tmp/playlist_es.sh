@@ -15,63 +15,56 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
+source "/var/volatile/project_eris.cfg"
 
-tmp_dir="/var/volatile"
-g_data="/gaadata"
-custom_games="/media/games"
-rom_dir="/media/roms/psx"
-lower_dir="${tmp_dir}${rom_dir}"
-original_m3u="/media/project_eris/etc/project_eris/SUP/retroarch"
-psc_region="$(cat "${g_data}/geninfo/REGION")"
-game_ids=(SLUS-00594 SLUS-00776 SCUS-94163 SCUS-94164 SCUS-94165 SLPS-01230 SLPS-01231 SLPS-01057 SLPS-01058 SLPS-01059 SLPM-86114 SLPM-86115)
-
+PSX_ROM_DIR="${ROMS_PATH}/psx"
+LOWER_DIR="${VOLATILE}${PSX_ROM_DIR}"
+SUP_RETROARCH="${SUPLEMENTARY_PATH}/retroarch"
+GAME_IDS=(SLUS-00594 SLUS-00776 SCUS-94163 SCUS-94164 SCUS-94165 SLPS-01230 SLPS-01231 SLPS-01057 SLPS-01058 SLPS-01059 SLPM-86114 SLPM-86115)
 # check if overlay is mounted and unmount it
-mount | grep -qs "${rom_dir}" && umount "${rom_dir}"
-find ${rom_dir} -type l -exec rm {} \;
-[ -d "${lower_dir}" ] && rm -rf "${lower_dir}"
-
+mount | grep -qs "${PSX_ROM_DIR}" && umount "${PSX_ROM_DIR}"
+find "${PSX_ROM_DIR}" -type l -exec rm {} \;
+[ -d "${LOWER_DIR}" ] && rm -rf "${LOWER_DIR}"
 # create lowerdir on volatile
-[ ! -d "${lower_dir}" ] && mkdir -p "${lower_dir}"
-[ -f "${tmp_dir}/psxCleanup" ] && rm -rf "${tmp_dir}/psxCleanup"
-
+[ ! -d "${LOWER_DIR}" ] && mkdir -p "${LOWER_DIR}"
 # find all PSX games and link them to ES rom folder
-find "$g_data" "$custom_games" -maxdepth 2 -regex ".*\.\(cue\|m3u\|bin\|pbp\|chd\|iso\)" | while IFS= read -r game_file; do
-  file_name="${game_file##*/}"
-  game_title=${file_name%.*}
-  ext=${game_file##*.}
-  game_path="${game_file%/*}"
-  initial_cleanup="${game_title%%(*}"
-  disc_rm="${initial_cleanup%%Disc*}"
+find "${GAADATA}" "${GAME_PATH}" -maxdepth 2 -regex ".*\.\(cue\|m3u\|bin\|pbp\|chd\|iso\)" | while IFS= read -r GAME_IMAGE; do
+  FILE_NAME="${GAME_IMAGE##*/}"
+  GAME_TITLE=${FILE_NAME%.*}
+  EXT=${GAME_IMAGE##*.}
+  FULL_PATH="${GAME_IMAGE%/*}"
+  STRIP_TITLE="${GAME_TITLE%%(*}"
+  DISC_REMOVE="${STRIP_TITLE%%Disc*}"
 
-  [ ! -f "${lower_dir}/${file_name}" ] && ln -s "$game_file" "$lower_dir"
-
-  if [ "${ext}" == "m3u" ]; then
-    echo "${disc_rm}" >>"${tmp_dir}/psxCleanup"
-    rm "${lower_dir}/${file_name}"
-    find "${game_path}" -name "*.cue" | while IFS= read -r cue_file; do
-      echo "../../games/${game_path##*/}/${cue_file##*/}" >>"${lower_dir}/${file_name}"
+  [ ! -f "${LOWER_DIR}/${FILE_NAME}" ] && ln -s "$GAME_IMAGE" "$LOWER_DIR"
+  # Generate new m2u for multidisc games
+  if [ "${EXT}" == "m3u" ]; then
+    echo "${DISC_REMOVE}" >>"${VOLATILE}/psxCleanup"
+    rm -f "${LOWER_DIR}/${FILE_NAME}"
+    find "${FULL_PATH}" -name "*.cue" | while IFS= read -r CUE_FILE; do
+      echo "../../games/${FULL_PATH##*/}/${CUE_FILE##*/}" >>"${LOWER_DIR}/${FILE_NAME}"
     done
   fi
 done
-
-# Load playlists for multidisc original games
-for g in "${game_ids[@]}"; do
-  find "$lower_dir" -name "${g}.*" -exec rm {} +
+# Remove symplinks for multidisc original games
+for g in "${GAME_IDS[@]}"; do
+  find "$LOWER_DIR" -name "${g}.*" -exec rm {} +
 done
-
-if [ "$psc_region" != "J" ]; then
-  ln -s "${original_m3u}/SLUS-00594.m3u" "${lower_dir}"
-  ln -s "${original_m3u}/SCUS-94163.m3u" "${lower_dir}"
+# Load playlists for multidisc original games
+if [ "$REGION" != "J" ]; then
+  ln -s "${SUP_RETROARCH}/SLUS-00594.m3u" "${LOWER_DIR}"
+  ln -s "${SUP_RETROARCH}/SCUS-94163.m3u" "${LOWER_DIR}"
 else
-  ln -s "${original_m3u}/SLPS-01230.m3u" "${lower_dir}"
-  ln -s "${original_m3u}/SLPS-01057.m3u" "${lower_dir}"
-  ln -s "${original_m3u}/SLPM-86114.m3u" "${lower_dir}"
+  ln -s "${SUP_RETROARCH}/SLPS-01230.m3u" "${LOWER_DIR}"
+  ln -s "${SUP_RETROARCH}/SLPS-01057.m3u" "${LOWER_DIR}"
+  ln -s "${SUP_RETROARCH}/SLPM-86114.m3u" "${LOWER_DIR}"
 fi
 # remove game image for m3u files
 while IFS= read -r game; do
-  find "${lower_dir}" \( -name "${game}*.cue" -o -name "${game}*.bin" \) -exec rm {} +
-done <"${tmp_dir}/psxCleanup"
-
+  find "${LOWER_DIR}" \( -name "${game}*.cue" -o -name "${game}*.bin" \) -exec rm {} +
+done <"${VOLATILE}/psxCleanup"
+# Emove
+[ -f "${VOLATILE}/psxCleanup" ] && rm -f "${VOLATILE}/psxCleanup"
 # mount volume
-mount -t overlay -o lowerdir="${rom_dir}":"${lower_dir}" "overlay-PSX2ES-media" "${rom_dir}"
+mount -t overlay -o lowerdir="${PSX_ROM_DIR}":"${LOWER_DIR}" "overlay-PSX2ES-media" "${PSX_ROM_DIR}"
 # EOF

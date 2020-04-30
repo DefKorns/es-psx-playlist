@@ -15,12 +15,9 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-
-pe_dir="/media/project_eris"
-psx_gamelist="${pe_dir}/opt/emulationstation/.emulationstation/gamelists/psx"
-sup_dir="${pe_dir}/etc/project_eris/SUP"
-updated_script="${sup_dir}/emulationstation/playlist_es.sh"
-
-[ -f "/tmp/playlist_es.sh" ] && mv "/tmp/playlist_es.sh" "${updated_script}"
-[ -f "/tmp/gamelist.xml" ] && mv "/tmp/gamelist.xml" "${psx_gamelist}/gamelist.xml"
-[ -d "/tmp/media" ] && cp -R "/tmp/media" "${psx_gamelist}"
+git config core.eol lf
+git config core.autocrlf input
+git rm --cached -rf .
+git diff --cached --name-only -z | xargs -n 50 -0 git add -f
+git ls-files -z | xargs -0 rm
+git checkout .
