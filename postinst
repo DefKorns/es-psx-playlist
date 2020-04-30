@@ -22,5 +22,9 @@ sup_dir="${pe_dir}/etc/project_eris/SUP"
 updated_script="${sup_dir}/emulationstation/playlist_es.sh"
 
 [ -f "/tmp/playlist_es.sh" ] && mv "/tmp/playlist_es.sh" "${updated_script}"
+if [ ! -f "${psx_gamelist}/gamelist.xml" ]; then
 [ -f "/tmp/gamelist.xml" ] && mv "/tmp/gamelist.xml" "${psx_gamelist}/gamelist.xml"
+fi
+if [ ! -d "${psx_gamelist}/media" ]; then
 [ -d "/tmp/media" ] && cp -R "/tmp/media" "${psx_gamelist}"
+fi
