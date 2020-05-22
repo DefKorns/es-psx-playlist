@@ -17,14 +17,40 @@
 #
 
 pe_dir="/media/project_eris"
+pe_root="${pe_dir}/etc/project_eris"
 psx_gamelist="${pe_dir}/opt/emulationstation/.emulationstation/gamelists/psx"
-sup_dir="${pe_dir}/etc/project_eris/SUP"
+sup_dir="${pe_root}/SUP"
+cfg_ini="${pe_root}/CFG/project_eris_cfg.INI"
 updated_script="${sup_dir}/emulationstation/playlist_es.sh"
 
 [ -f "/tmp/playlist_es.sh" ] && mv "/tmp/playlist_es.sh" "${updated_script}"
+
 if [ ! -f "${psx_gamelist}/gamelist.xml" ]; then
-[ -f "/tmp/gamelist.xml" ] && mv "/tmp/gamelist.xml" "${psx_gamelist}/gamelist.xml"
+  [ -f "/tmp/gamelist.xml" ] && mv "/tmp/gamelist.xml" "${psx_gamelist}/gamelist.xml"
 fi
 if [ ! -d "${psx_gamelist}/media" ]; then
-[ -d "/tmp/media" ] && cp -R "/tmp/media" "${psx_gamelist}"
+  [ -d "/tmp/media" ] && cp -R "/tmp/media" "${psx_gamelist}"
+fi
+
+if ! grep -q "CUSTOM GLOBAL VARIABLES" "${cfg_ini}"; then
+  sed -i '103i;## CUSTOM GLOBAL VARIABLES ##################################################;' "${cfg_ini}"
+  sed -i '105i;' "${cfg_ini}"
+  sed -i '106i;Location of Project Eris root \
+PROJECT_ERIS_ROOT_PATH="${PROJECT_ERIS_PATH}/etc/project_eris" \
+;Location of Suplementary files \
+SUPLEMENTARY_PATH="${PROJECT_ERIS_PATH}/etc/project_eris/SUP" \
+;Location of Emulationstation \
+EMULATIONSTATION_PATH="${PROJECT_ERIS_PATH}/opt/emulationstation" \
+;Location of Emulationstation configuration files \
+ES_CFG_PATH="${PROJECT_ERIS_PATH}/opt/emulationstation/.emulationstation" \
+;Location of volatile path \
+VOLATILE="/var/volatile" \
+;Location of gaadata path \
+GAADATA="/gaadata" \
+;System region \
+REGION="$(cat "${GAADATA}/geninfo/REGION")" \
+;Location of roms path \
+ROMS_PATH="${MOUNTPOINT}/roms" \
+;Location of games path \
+GAME_PATH="${MOUNTPOINT}/games"' "${cfg_ini}"
 fi
