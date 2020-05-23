@@ -15,6 +15,7 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
+# shellcheck disable=SC2001
 PKG_PRETTY_NAME="Emulationstation: PSX Playlist"
 PKG_NAME="es-psx-playlist"
 
@@ -29,18 +30,18 @@ POSTINST="${PKG_TARGET}/DEBIAN/postinst"
 POSTRM="${PKG_TARGET}/DEBIAN/postrm"
 CONTROL="${PKG_TARGET}/DEBIAN/control"
 
-VERSION=$([ -f VERSION ] && head VERSION || echo "0.0.1")
+VERSION="$([ -f VERSION ] && head VERSION || echo "0.0.1")"
 
 LAST_TAG_COMMIT=$(git rev-list --tags --max-count=1)
-LAST_TAG=$(git describe --tags ${LAST_TAG_COMMIT})
+LAST_TAG=$(git describe --tags "${LAST_TAG_COMMIT}")
 
-MAJOR=$(echo ${VERSION} | sed "s/^\([0-9]*\).*/\1/")
-MINOR=$(echo ${VERSION} | sed "s/[0-9]*\.\([0-9]*\).*/\1/")
-PATCH=$(echo ${VERSION} | sed "s/[0-9]*\.[0-9]*\.\([0-9]*\).*/\1/")
+MAJOR=$(echo "${VERSION}" | sed "s/^\([0-9]*\).*/\1/")
+MINOR=$(echo "${VERSION}" | sed "s/[0-9]*\.\([0-9]*\).*/\1/")
+PATCH=$(echo "${VERSION}" | sed "s/[0-9]*\.[0-9]*\.\([0-9]*\).*/\1/")
 
-NEXT_MAJOR_VERSION="$(expr ${MAJOR} + 1).0.0"
-NEXT_MINOR_VERSION="${MAJOR}.$(expr ${MINOR} + 1)"
-NEXT_PATCH_VERSION="${MAJOR}.${MINOR}.$(expr ${PATCH} + 1)"
+NEXT_MAJOR_VERSION="$((MAJOR + 1)).0.0"
+NEXT_MINOR_VERSION="${MAJOR}.$((MINOR + 1))"
+NEXT_PATCH_VERSION="${MAJOR}.${MINOR}.$((PATCH + 1))"
 
 modCreation() {
   mkdir -p "${PKG_TARGET}/DEBIAN"
@@ -48,22 +49,23 @@ modCreation() {
   {
     printf "%s\n" \
       "Package: ${PKG_NAME}" \
+      "Author: ${PKG_CREATOR}" \
       "Version: ${VERSION}" \
+      "Built: $(date)" \
+      "Section: mods" \
+      "Priority: optional" \
       "Architecture: ${ARCHITECTURE}" \
-      "Depends: ${DEPENDS}" \
+      "Platform: ${PLATFORM} ${ARCHITECTURE}" \
       "Maintainer: ${MAINTAINER}" \
       "Description: ${PKG_PRETTY_NAME}"
     cat mod_description.txt
-    echo "Author: ${PKG_CREATOR}"
-    echo "Platform: ${PLATFORM} ${ARCHITECTURE}"
-    echo "Built: $(date)"
   } >>${CONTROL}
 
   [ -f "preinst" ] && cp -rf preinst ${PREINST} && chmod 755 ${PREINST}
   [ -f "postinst" ] && cp -rf postinst ${POSTINST} && chmod 755 ${POSTINST}
   [ -f "postrm" ] && cp -rf postrm ${POSTRM} && chmod 755 ${POSTRM}
 
-  dpkg-deb -v --build ${PKG_TARGET}
+  dpkg-deb -b ${PKG_TARGET}
   mv ${PKG_TARGET}.deb ${PKG_TARGET}.mod
 
   rm -r ${PKG_TARGET:?}/
@@ -97,8 +99,8 @@ major)
   clean
   modCreation
   echo "${NEXT_PATCH_VERSION}" >VERSION
-  if [ $(checkVersion ${VERSION}) -gt $(checkVersion ${LAST_TAG}) ]; then
-    git tag $VERSION
+  if [ "$(checkVersion "${VERSION}")" -gt "$(checkVersion "${LAST_TAG}")" ]; then
+    git tag "$VERSION"
   fi
   ;;
 esac
